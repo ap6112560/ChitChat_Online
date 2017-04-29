@@ -26,16 +26,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textColor="@color/white"
+                android:textColor="@color/white_smoke"
                 android:textSize="@dimen/txt_13sp" />
-            <TextView
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
                 android:id="@+id/lbl2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textIsSelectable="true"
                 android:text="sd"
                 android:textColor="@color/white"
-                android:textSize="@dimen/txt_14sp" 
-                android:maxLines="4"/>
+                android:textSize="@dimen/txt_20sp"/>
 
         </LinearLayout>
 

@@ -8,10 +8,19 @@
      <ListView
             android:id="@+id/list"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
             android:divider="@color/main_color_green"
             android:dividerHeight="1dp"
+            android:fastScrollEnabled="true"
             tools:listitem="@layout/chat_item" >
-        </ListView>
-
+     </ListView>
+     <Button
+         android:id="@+id/btnGrp"
+         style="@style/btn_red"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:onClick="check"
+         android:text="@string/Continue" />
 </LinearLayout>

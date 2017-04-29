@@ -19,7 +19,8 @@
         tools:listitem="@layout/chat_item_rcv" >
     </ListView>
 
-   <LinearLayout 
+   <LinearLayout
+       android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/gray_light"
@@ -27,23 +28,37 @@
     android:padding="@dimen/pad_5dp"
     tools:context=".MainActivity" >
 
-    
-    <EditText
+       <ImageView
+           android:id="@+id/emoji_btn"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:padding="4dp"
+           android:src="@drawable/smiley"
+           />
+
+
+       <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
         android:id="@+id/txt"
         style="@style/edittext_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:hint="@string/type_msg" >
+        android:hint="@string/type_msg" />
 
-        
-    </EditText>
+
+       <ImageView
+           android:id="@+id/attach_btn"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:padding="4dp"
+           android:src="@drawable/attach"
+           />
 
     <Button
         android:id="@+id/btnSend"
         style="@style/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:background="@drawable/ic_send" />
 
 </LinearLayout>

@@ -1,51 +1,23 @@
 [
     {
-        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/green_btn.png",
-        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/green_btn.png"
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/attach.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/attach.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_username.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_username.png"
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/green_btn.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/green_btn.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_chat1.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/user_chat1.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/green_btn.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/green_btn.png"
-    },
-    {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/editext_bg_gray.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/editext_bg_gray.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/back_arrow.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_chat2.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/user_chat2.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_chat1.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/user_chat1.png"
-    },
-    {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/actionbar_bg.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/actionbar_bg.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_gray.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/chat_bubble_gray.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/logo_login.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/logo_login.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_compose.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_compose.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_offline.png",
@@ -56,68 +28,48 @@
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_online.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_online.png"
-    },
-    {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_compose.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_compose.png"
+    },
+    {
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/play.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/play.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_gray.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/chat_bubble_gray.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_offline.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_offline.png"
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_green.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/chat_bubble_green.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_pwd.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_pwd.png"
     },
     {
-        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_green.png",
-        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/chat_bubble_green.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/user_chat2.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/user_chat2.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/editext_bg_gray.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/editext_bg_gray.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/arrow.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/arrow.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_send.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_send.png"
-    },
-    {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/logo_login.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/logo_login.png"
+    },
+    {
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/counter.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/counter.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_username.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_username.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/edittext_bg.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/edittext_bg.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_pwd.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_pwd.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/arrow.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/arrow.png"
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/mail.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/mail.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_send.png",
@@ -128,24 +80,16 @@
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/ic_online.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/icon.png"
-    },
-    {
-        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon.png",
-        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/icon.png"
-    },
-    {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/chat_bubble_green.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/chat_bubble_green.png"
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/smiley.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/smiley.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/edittext_bg.png",
         "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/edittext_bg.png"
     },
     {
-        "merged": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/actionbar_bg.png",
-        "source": "/media/ankit/90FEDFC7FEDFA3AE/Users/Ankit/Downloads/AndroidChattDemo/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/actionbar_bg.png"
+        "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/blank.png",
+        "source": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/src/main/res/drawable-xhdpi/blank.png"
     },
     {
         "merged": "/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-xhdpi/back_arrow.png",

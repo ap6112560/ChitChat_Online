@@ -1,5 +1,8 @@
 package com.chatt.demo.model;
 
+import android.graphics.Bitmap;
+import android.net.Uri;
+
 import java.util.Date;
 
 import com.chatt.demo.UserList;
@@ -21,16 +24,21 @@ public class Conversation
 	public static final int STATUS_FAILED = 2;
 	/** The msg. */
 	private String msg;
-
+	/** The img. */
+	private Uri img;
+	/** The vid. */
+	private Uri vid;
 	/** The status. */
 	private int status = STATUS_SENT;
-
 	/** The date. */
 	private Date date;
 
 	/** The sender. */
 	private String sender;
-
+	/** The differentiator**/
+	private int diff=0;
+	/** The type**/
+	private int type=0;
 	/**
 	 * Instantiates a new conversation.
 	 * 
@@ -44,8 +52,32 @@ public class Conversation
 	public Conversation(String msg, Date date, String sender)
 	{
 		this.msg = msg;
+		this.img=null;
 		this.date = date;
 		this.sender = sender;
+		this.diff=0;
+	}
+	/**
+	 * Instantiates a new conversation.
+	 *
+	 * @param file
+	 *            the file
+	 * @param date
+	 *            the date
+	 * @param sender
+	 *            the sender
+	 */
+	public Conversation(Uri file, Date date, String sender,int type)
+	{
+		this.msg =null;
+		if(type==0)
+			this.img = file;
+		else if(type==1)
+			this.vid=file;
+		this.date = date;
+		this.sender = sender;
+		this.diff=1;
+		this.type=type;
 	}
 
 	/**
@@ -74,6 +106,47 @@ public class Conversation
 	public void setMsg(String msg)
 	{
 		this.msg = msg;
+	}
+
+	/**
+	 * Gets the img.
+	 *
+	 * @return the img
+	 */
+	public Uri getImg()
+	{
+		return img;
+	}
+
+	/**
+	 * Sets the img.
+	 *
+	 * @param img
+	 *            the new img
+	 */
+	public void setImg(Uri img)
+	{
+		this.img = img;
+	}
+	/**
+	 * Gets the vid.
+	 *
+	 * @return the vid
+	 */
+	public Uri getVid()
+	{
+		return vid;
+	}
+
+	/**
+	 * Sets the vid.
+	 *
+	 * @param vid
+	 *            the new vid
+	 */
+	public void setVid(Uri vid)
+	{
+		this.vid = vid;
 	}
 
 	/**
@@ -148,5 +221,44 @@ public class Conversation
 	{
 		this.status = status;
 	}
+	/**
+	 * Gets the differentiator.
+	 *
+	 * @return the differentiator
+	 */
+	public int getDiff()
+	{
+		return diff;
+	}
 
+	/**
+	 * Sets the differentiator.
+	 *
+	 * @param diff
+	 *            the new differentiator
+	 */
+	public void setDiff(int diff)
+	{
+		this.diff = diff;
+	}
+	/**
+	 * Gets the type.
+	 *
+	 * @return the type
+	 */
+	public int getType()
+	{
+		return type;
+	}
+
+	/**
+	 * Sets the type.
+	 *
+	 * @param type
+	 *            the new type
+	 */
+	public void setType(int type)
+	{
+		this.type = type;
+	}
 }
