@@ -363,14 +363,8 @@ public class UserList extends CustomActivity
 				int flag=uList.get(pos).getImgid();
 				b.putInt("flag",flag);
 				b.putInt("pos",pos);
-				if(flag==0) {
-					if(blist.get(pos).getByteCount()>1000000) {
-						Bitmap bp = Bitmap.createScaledBitmap(blist.get(pos), 50, 50, false);
-						b.putParcelable("image",bp);
-					}
-					else
+				if(flag==0)
 						b.putParcelable("image", blist.get(pos));
-				}
 				else {
 					b.putInt("image", flag);
 					b.putString("admin",admins.get(pos));
