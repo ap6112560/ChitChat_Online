@@ -462,7 +462,6 @@ public class UserList extends CustomActivity
 					if(blist.size()==pos)
 						blist.add(pos, bitmap);
 					//Log.v("blist", String.valueOf(blist.size()-1) + ":" + pos);
-					bitmap = Bitmap.createScaledBitmap(bitmap, 50, 50, false);
 				} catch (ParseException e1) {
 					Utils.showDialog(
 							UserList.this, e1.getMessage());

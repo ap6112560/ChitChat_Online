@@ -76,6 +76,8 @@ public class Register extends CustomActivity
 
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImage);
 
+                bitmap = Bitmap.createScaledBitmap(bitmap, 50, 50, false);
+
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
 
                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
