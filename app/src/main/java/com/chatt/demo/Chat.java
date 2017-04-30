@@ -550,7 +550,6 @@ public class Chat extends CustomActivity {
 		}
 		else if (item.getItemId()==1)
 		{
-			UserList.timeList.remove(pos);
 			ParseQuery<ParseObject> q1 = ParseQuery.getQuery("Group");
 			q1.whereEqualTo("name",buddy);
 			final ProgressDialog dia = ProgressDialog.show(this, null,
@@ -565,13 +564,18 @@ public class Chat extends CustomActivity {
 						q2.findInBackground(new FindCallback<ParseObject>() {
 							@Override
 							public void done(List<ParseObject> objects, ParseException e) {
-								ParseObject.deleteAllInBackground(objects, new DeleteCallback() {
-									@Override
-									public void done(ParseException e) {
-										dia.dismiss();
-										finish();
-									}
-								});
+								if(objects!=null && objects.size()>0)
+									ParseObject.deleteAllInBackground(objects, new DeleteCallback() {
+										@Override
+										public void done(ParseException e) {
+											dia.dismiss();
+											finish();
+										}
+									});
+								else {
+									dia.dismiss();
+									finish();
+								}
 							}
 						});
 					} catch (ParseException e1) {

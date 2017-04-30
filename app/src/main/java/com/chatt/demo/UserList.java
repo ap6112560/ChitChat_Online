@@ -63,6 +63,8 @@ public class UserList extends CustomActivity
 
 	/** The Chat list. */
 	private ArrayList<Contacts> uList;
+
+	Contacts copy[];
 	//private ArrayList<Contacts> copyList;
 	/** The user. */
 	public static ParseUser user;
@@ -146,6 +148,7 @@ public class UserList extends CustomActivity
 	{
 		super.onResume();
 		isRunning = true;
+		copy=uList.toArray(new Contacts[uList.size()]);
 		admins.clear();
 		uList.clear();
 		blist.clear();
@@ -199,10 +202,7 @@ public class UserList extends CustomActivity
 						for (int i = 0; i < size; i++) {
 							q2.whereEqualTo("sender", uList.get(i).getContact());
 							q2.whereEqualTo("receiver", user.getUsername());
-							//if(timeList.size()!=0)
-								q2.whereGreaterThan("createdAt", timeList.get(i));
-							//else
-								//Log.v("timelist","exit");
+                            q2.whereGreaterThan("createdAt", timeList.get(i));
 
 							int count = 0;
 							try {
@@ -223,10 +223,7 @@ public class UserList extends CustomActivity
 						for (int i = size; i < uList.size(); i++) {
 							q2.whereEqualTo("receiver", uList.get(i).getContact());
 							q2.whereNotEqualTo("sender", user.getUsername());
-							//if(timeList.size()!=0)
-								q2.whereGreaterThan("createdAt", timeList.get(i));
-							//else
-								//Log.v("timelist","exit");
+							q2.whereGreaterThan("createdAt", timeList.get(i));
 							int count = 0;
 							try {
 								count = q2.count();
@@ -313,16 +310,23 @@ public class UserList extends CustomActivity
 						if (menu2status == 0) {
 							ParseQuery<ParseObject> q = ParseQuery.getQuery("Group");
 							q.whereEqualTo("members", user.getUsername());
+                            q.orderByAscending("createdAt");
 							q.findInBackground(new FindCallback<ParseObject>() {
 
 								@Override
 								public void done(List<ParseObject> li, ParseException e) {
 									if (li != null && li.size() > 0) {
+										int k=size;
 										for (int i = 0; i < li.size(); i++) {
 											ParseObject po = li.get(i);
 											Contacts c = new Contacts(po.getString("name"), R.drawable.group);
 											uList.add(c);
 											admins.add(po.getString("admin"));
+											while(k<copy.length && !copy[k].getContact().equals(po.getString("name"))){
+												timeList.remove(k);
+												k++;
+											}
+											k++;
 											if(timeList.size()==i+size) {
 												Log.v("infov", String.valueOf(time));
 												timeList.add(time);
