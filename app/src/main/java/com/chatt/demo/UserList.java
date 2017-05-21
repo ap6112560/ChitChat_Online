@@ -453,7 +453,7 @@ public class UserList extends CustomActivity
 			BitmapDrawable rightdrawable;
 			if(c.getImgid()==0) {
 				Bitmap bitmap = null;
-				byte[] byteArray = new byte[0];
+				byte[] byteArray;
 				try {
 					byteArray = file.getData();
 					bitmap = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.length);

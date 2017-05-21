@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/ankit/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_on_off.png",
+        "source": "/home/ankit/Android Chatt Demo Android Studo/app/src/main/res/drawable-mdpi/ic_action_on_off.png"
+    },
+    {
+        "merged": "/home/ankit/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/home/ankit/Android Chatt Demo Android Studo/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ankit/Android Chatt Demo Android Studo/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_discover.png",
+        "source": "/home/ankit/Android Chatt Demo Android Studo/app/src/main/res/drawable-mdpi/ic_action_discover.png"
+    }
+]

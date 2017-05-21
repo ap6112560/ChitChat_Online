@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import com.chatt.demo.custom.CustomActivity;
 import com.chatt.demo.utils.Utils;
@@ -38,7 +39,13 @@ public class Login extends CustomActivity
 
 		setTouchNClick(R.id.btnLogin);
 		setTouchNClick(R.id.btnReg);
-
+		ImageView iv = (ImageView) findViewById(R.id.imageView);
+		iv.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startActivityForResult(new Intent(Login.this, WiFiDirectActivity.class), 10);
+			}
+		});
 		user = (EditText) findViewById(R.id.user);
 		pwd = (EditText) findViewById(R.id.pwd);
 	}
@@ -50,8 +57,7 @@ public class Login extends CustomActivity
 	public void onClick(View v)
 	{
 		super.onClick(v);
-		if (v.getId() == R.id.btnReg)
-		{
+		if (v.getId() == R.id.btnReg) {
 			startActivityForResult(new Intent(this, Register.class), 10);
 		}
 		else

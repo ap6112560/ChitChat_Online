@@ -1,5 +1,7 @@
 <resources>
 
+	<dimen name="tablet_list_width">300dp</dimen>
+	<dimen name="phone_list_height">200dp</dimen>
 	<dimen name="pad_5dp">5dp</dimen>
 	<dimen name="pad_10dp">10dp</dimen>
 	<dimen name="pad_15dp">15dp</dimen>

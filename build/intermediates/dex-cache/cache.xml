@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ankit/Android Chatt Demo Android Studo/supernova-emoji-library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1708055a4323620abee9c20ba05666f71e996a5b">
+        <dex dex="/home/ankit/Android Chatt Demo Android Studo/app/build/intermediates/pre-dexed/debug/classes_f8f0291ef6e83bcd68f3377d2a0618dc9e02362d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/supernova-emoji-library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1708055a4323620abee9c20ba05666f71e996a5b">
+        <dex dex="/home/ankit/AndroidStudioProjects/Android Chatt Demo Android Studo/app/build/intermediates/pre-dexed/debug/classes_9a98688cb45a3375fc0318bbe11a430fd9828207.jar" />
+    </item>
+
+</items>
